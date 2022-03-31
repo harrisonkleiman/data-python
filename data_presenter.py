@@ -9,6 +9,11 @@ for row in cupcake_file:
 for total in cupcake_file:
     total = float(total)
     print(total)
+
+# Loop through all the data and print the type of cupcakes purchased.
+for cupcake in cupcake_file:
+    cupcake = cupcake.strip()
+    print(cupcake)
      
 
 # Loop through all the data, and print out the total for all invoices combined.
@@ -38,4 +43,4 @@ for income in cupcake_file:
     print(chocolate_income, vanilla_income, strawberry_income)
 
 
-cupcake_file.close()
+# cupcake_file.close()
